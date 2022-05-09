@@ -180,7 +180,7 @@ namespace AC
 	public enum QTEState { None, Win, Lose, Running };
 
 	public enum FilterSpeechLine { Type, Text, Scene, Speaker, Description, ID, All };
-	public enum ActionCategory { ActionList, Camera, Character, Container, Dialogue, Document, Engine, Hotspot, Input, Inventory, Menu, Moveable, Object, Objective, Player, Save, Scene, Sound, ThirdParty, Variable, Custom, LostWall};
+	public enum ActionCategory { ActionList, Camera, Character, Container, Dialogue, Document, Engine, Hotspot, Input, Inventory, Menu, Moveable, Object, Objective, Player, Save, Scene, Sound, ThirdParty, Variable, Custom};
 	public enum VolumeControl { AudioSources, AudioMixerGroups };
 	public enum TurningStyle { Linear, Script, RootMotion };
 	public enum DoubleClickingHotspot { MakesPlayerRun, TriggersInteractionInstantly, DoesNothing, IsRequiredToUse };

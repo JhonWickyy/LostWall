@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LostWall_ActionsManager
   m_EditorClassIdentifier: 
   customFolderPaths:
+  - Scripts/CustomActions
   - 
   allFavouriteActionData: []
   displayActionsInInspector: 1
@@ -872,6 +873,18 @@ MonoBehaviour:
       forumla (e.g. 2 + 3 *4), which can also include tokens of the form [var:ID]
       to denote the value of a Variable, where ID is the unique number given to a
       Variable in the Variables Manager.
+    isEnabled: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - fileName: ActionDialogue
+    category: 20
+    title: Dialogue
+    description: Show Dialogue
+    isEnabled: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - fileName: ActionDisplayItem
+    category: 20
+    title: DisplayItem
+    description: Display Item Details
     isEnabled: 1
     color: {r: 1, g: 1, b: 1, a: 1}
   defaultActionCategoryDatas: []

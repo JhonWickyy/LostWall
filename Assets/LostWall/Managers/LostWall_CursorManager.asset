@@ -14,17 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cursorRendering: 0
   uiCursorPrefab: {fileID: 1233823316936846, guid: 06b2d842adf45461ea9a51538a9e3e07, type: 3}
-  cursorDisplay: 1
-  allowMainCursor: 1
-  lockSystemCursor: 1
-  keepCursorWithinScreen: 1
+  cursorDisplay: 2
+  allowMainCursor: 0
+  lockSystemCursor: 0
+  keepCursorWithinScreen: 0
   allowWalkCursor: 0
   addWalkPrefix: 0
   walkPrefix:
     label: Walk to
     lineID: -1
   addHotspotPrefix: 0
-  allowInteractionCursor: 1
+  allowInteractionCursor: 0
   allowInteractionCursorForInventory: 0
   cycleCursors: 0
   onlyAnimateOverHotspots: 0
@@ -85,7 +85,7 @@ MonoBehaviour:
     clickOffset: {x: 0, y: 0}
     frameSpeeds: []
     alwaysAnimate: 0
-  inventoryHandling: 0
+  inventoryHandling: 3
   hotspotPrefix1:
     label: Use
     lineID: -1
@@ -103,12 +103,28 @@ MonoBehaviour:
   displayCountTextEffects: 0
   displayCountColor: {r: 1, g: 1, b: 1, a: 1}
   cursorIcons:
-  - texture: {fileID: 2800000, guid: f03835de3da7f442f92582f0dd5e5863, type: 3}
+  - texture: {fileID: 2800000, guid: e0394f989f329496584e377a81d4031f, type: 3}
     isAnimated: 0
     numFrames: 1
     numRows: 1
     numCols: 1
-    size: 0.05
+    size: 0.03
+    animSpeed: 4
+    endAnimOnLastFrame: 0
+    skipFirstFrameWhenLooping: 0
+    clickOffset: {x: 0, y: 0}
+    frameSpeeds: []
+    alwaysAnimate: 0
+    dontCycle: 0
+    label: "\u67E5\u770B:"
+    lineID: -1
+    id: 0
+  - texture: {fileID: 2800000, guid: 98631a0b098cf4c019e14d2cdaeed10d, type: 3}
+    isAnimated: 0
+    numFrames: 1
+    numRows: 1
+    numCols: 1
+    size: 0.03
     animSpeed: 4
     endAnimOnLastFrame: 0
     skipFirstFrameWhenLooping: 0
@@ -119,29 +135,13 @@ MonoBehaviour:
     label: "\u5BF9\u8BDD:"
     lineID: -1
     id: 1
-  - texture: {fileID: 2800000, guid: e0394f989f329496584e377a81d4031f, type: 3}
-    isAnimated: 0
-    numFrames: 1
-    numRows: 1
-    numCols: 1
-    size: 0.05
-    animSpeed: 4
-    endAnimOnLastFrame: 0
-    skipFirstFrameWhenLooping: 0
-    clickOffset: {x: 0, y: 0}
-    frameSpeeds: []
-    alwaysAnimate: 0
-    dontCycle: 0
-    label: "\u641C\u67E5:"
-    lineID: -1
-    id: 2
   unhandledCursorInteractions:
   - {fileID: 0}
   - {fileID: 0}
   passUnhandledHotspotAsParameter: 0
-  onlyShowCursorLabelOverHotspots: 0
+  onlyShowCursorLabelOverHotspots: 1
   allowCursorCyclingWhenPaused: 0
   lookUseCursorAction: 0
   lookCursor_ID: 2
-  hideCursorWhenDraggingMoveables: 1
-  forceCursorInEditor: 1
+  hideCursorWhenDraggingMoveables: 0
+  forceCursorInEditor: 0

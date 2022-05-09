@@ -59,7 +59,7 @@ MonoBehaviour:
   cycleInventoryCursors: 1
   scaleCursorSpeedWithScreen: 1
   autoCycleWhenInteract: 0
-  showHoverInteractionInHotspotLabel: 0
+  showHoverInteractionInHotspotLabel: 1
   allowDefaultinteractions: 0
   alwaysCloseInteractionMenus: 1
   whenReselectHotspot: 0
@@ -153,7 +153,7 @@ MonoBehaviour:
   closeInteractionMenusIfPlayerLeavesVicinity: 0
   placeDistantHotspotsOnSeparateLayer: 1
   hotspotsInVicinity: 0
-  hotspotIconDisplay: 0
+  hotspotIconDisplay: 2
   hotspotIcon: 1
   hotspotIconTexture: {fileID: 0}
   hotspotIconGraphic:

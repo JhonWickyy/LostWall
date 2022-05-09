@@ -309,7 +309,7 @@ MonoBehaviour:
   doDirections: 1
   crossfadeAnims: 0
   doDiagonals: 0
-  frameFlipping: 0
+  frameFlipping: 1
   flipCustomAnims: 0
   _spriteDirectionData:
     directions: 1

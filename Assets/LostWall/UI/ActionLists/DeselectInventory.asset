@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: DeselectInventory
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 6999839300214125625}
+  - {fileID: 2915740376589856111}
   isSkippable: 1
-  actionListType: 0
+  actionListType: 1
   unfreezePauseMenus: 1
   useParameters: 0
   canRunMultipleInstances: 0
@@ -24,7 +24,7 @@ MonoBehaviour:
   parameters: []
   tagID: 0
   backupData: []
---- !u!114 &6999839300214125625
+--- !u!114 &2915740376589856111
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -33,7 +33,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a0475eee84cf46969967016cad60b1a, type: 3}
+  m_Script: {fileID: 11500000, guid: 7b91067c0f4744b2b9cecc0a528ad886, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   id: 0
@@ -46,25 +46,24 @@ MonoBehaviour:
   skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
-  endings: []
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
   isEnabled: 1
   isAssetFile: 1
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 14
+    y: 14
     width: 300
-    height: 60
+    height: 334
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
-  selectType: 1
-  selectItemMode: 0
-  carryCondition: 0
-  giveToPlayer: 0
-  setAmount: 0
-  amountParameterID: -1
-  amount: 1
-  parameterID: -1
-  invID: 0
+  ShowImage: {fileID: 2800000, guid: 279f107139a144b54983fac4b9a2a288, type: 3}
+  constantID_imgShowImage: 683640
+  constantID_txtShowImage: 683738
