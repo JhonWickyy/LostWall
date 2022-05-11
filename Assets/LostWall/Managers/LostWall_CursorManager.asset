@@ -14,19 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cursorRendering: 0
   uiCursorPrefab: {fileID: 1233823316936846, guid: 06b2d842adf45461ea9a51538a9e3e07, type: 3}
-  cursorDisplay: 2
-  allowMainCursor: 0
+  cursorDisplay: 0
+  allowMainCursor: 1
   lockSystemCursor: 0
-  keepCursorWithinScreen: 0
+  keepCursorWithinScreen: 1
   allowWalkCursor: 0
   addWalkPrefix: 0
   walkPrefix:
     label: Walk to
     lineID: -1
-  addHotspotPrefix: 0
-  allowInteractionCursor: 0
+  addHotspotPrefix: 1
+  allowInteractionCursor: 1
   allowInteractionCursorForInventory: 0
-  cycleCursors: 0
+  cycleCursors: 1
   onlyAnimateOverHotspots: 0
   leftClickExamine: 0
   onlyWalkWhenOverNavMesh: 0
@@ -47,8 +47,8 @@ MonoBehaviour:
     frameSpeeds: []
     alwaysAnimate: 0
   pointerIcon:
-    texture: {fileID: 2800000, guid: 5c83780962ed843c0928648679746938, type: 3}
-    isAnimated: 0
+    texture: {fileID: 2800000, guid: ad3b7317de1b74297b4d37f426592092, type: 3}
+    isAnimated: 1
     numFrames: 1
     numRows: 1
     numCols: 1
@@ -57,7 +57,8 @@ MonoBehaviour:
     endAnimOnLastFrame: 0
     skipFirstFrameWhenLooping: 0
     clickOffset: {x: 0, y: 0}
-    frameSpeeds: []
+    frameSpeeds:
+    - 1
     alwaysAnimate: 0
   walkIcon:
     texture: {fileID: 2800000, guid: 5a92dd715310c4e90b5ce6207f024c6a, type: 3}
@@ -85,7 +86,7 @@ MonoBehaviour:
     clickOffset: {x: 0, y: 0}
     frameSpeeds: []
     alwaysAnimate: 0
-  inventoryHandling: 3
+  inventoryHandling: 0
   hotspotPrefix1:
     label: Use
     lineID: -1

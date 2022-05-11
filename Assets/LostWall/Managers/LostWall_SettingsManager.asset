@@ -47,8 +47,8 @@ MonoBehaviour:
     startingSceneName: 
     useSceneDefaultPlayerStart: 1
     startingPlayerStartID: 0
-  movementMethod: 1
-  inputMethod: 1
+  movementMethod: 0
+  inputMethod: 0
   interactionMethod: 1
   selectInteractions: 0
   autoHideInteractionIcons: 1
@@ -116,7 +116,7 @@ MonoBehaviour:
   unityUIClicksAlwaysBlocks: 0
   pathfindUpdateFrequency: 0
   verticalReductionFactor: 0.7
-  rotationsAffectedByVerticalReduction: 1
+  rotationsAffectedByVerticalReduction: 0
   jumpSpeed: 4
   singleTapStraight: 0
   singleTapStraightPathfind: 0
@@ -149,11 +149,11 @@ MonoBehaviour:
   cacheCameraMain: 0
   linearColorTextures: 0
   movingTurning: 3
-  hotspotDetection: 1
+  hotspotDetection: 0
   closeInteractionMenusIfPlayerLeavesVicinity: 0
   placeDistantHotspotsOnSeparateLayer: 1
   hotspotsInVicinity: 0
-  hotspotIconDisplay: 2
+  hotspotIconDisplay: 0
   hotspotIcon: 1
   hotspotIconTexture: {fileID: 0}
   hotspotIconGraphic:
@@ -172,7 +172,7 @@ MonoBehaviour:
   hotspotIconSize: 0.04
   playerFacesHotspots: 0
   onlyFaceHotspotOnSelect: 0
-  scaleHighlightWithMouseProximity: 0
+  scaleHighlightWithMouseProximity: 1
   highlightProximityFactor: 4
   occludeIcons: 0
   hideIconUnderInteractionMenu: 0

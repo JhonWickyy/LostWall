@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: LostWall_InventoryManager
   m_EditorClassIdentifier: 
   items:
-  - label: test_item_1
+  - label: item_branch
     id: 0
-    altLabel: "\u6D4B\u8BD5\u7269\u54C11"
+    altLabel: "\u6811\u679D"
     carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
@@ -25,12 +25,12 @@ MonoBehaviour:
     canBeLowerCase: 0
     maxCount: 999
     itemStackingMode: 0
-    tex: {fileID: 2800000, guid: dc008b16a8cbf4215a275efe13cba3e5, type: 3}
-    activeTex: {fileID: 2800000, guid: cc813e9b37d414e92a640ce5cbe4ed9a, type: 3}
+    tex: {fileID: 2800000, guid: c69546bf236944c3798ad726d1db4bd2, type: 3}
+    activeTex: {fileID: 2800000, guid: a1622ee8af9a84ac2b48415a68f6c8fa, type: 3}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
     cursorIcon:
-      texture: {fileID: 2800000, guid: cc813e9b37d414e92a640ce5cbe4ed9a, type: 3}
+      texture: {fileID: 0}
       isAnimated: 0
       numFrames: 1
       numRows: 1
@@ -48,7 +48,62 @@ MonoBehaviour:
       id: 0
     lineID: -1
     useIconID: 0
-    binID: 0
+    binID: -1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 11400000, guid: 2c703c2c2d8044e7992fe078f78a4e2c, type: 2}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineInteractions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  - label: burning_branch
+    id: 1
+    altLabel: "\u71C3\u70E7\u7684\u6811\u679D"
+    carryOnStart: 1
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: aad3eb4169a8241dda903acb5ed08f50, type: 3}
+    activeTex: {fileID: 2800000, guid: d14e77a2d44004a7abfcb2d5a536e6b6, type: 3}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: -1
     overrideUseSyntax: 0
     hotspotPrefix1:
       label: Use
@@ -68,9 +123,172 @@ MonoBehaviour:
     useSeparateSlots: 0
     selectSingle: 0
     showInFilter: 1
-  bins:
-  - label: Items
-    id: 0
+  - label: charred_thoms
+    id: 2
+    altLabel: "\u8346\u68D8"
+    carryOnStart: 1
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 3cc9085bd9eea4c0692239d92ae70b6c, type: 3}
+    activeTex: {fileID: 2800000, guid: 08b89202aeb5a4921bdda0de3be67edf, type: 3}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: -1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineInteractions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  - label: Hair
+    id: 3
+    altLabel: "\u5934\u53D1"
+    carryOnStart: 1
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: f438c4a501d804a3ab7499d665f32d9d, type: 3}
+    activeTex: {fileID: 2800000, guid: e73b8de24fb7d49fca4d854bfda200dd, type: 3}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: -1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineInteractions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  - label: sewing
+    id: 4
+    altLabel: "\u9488"
+    carryOnStart: 1
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: c76702f2cfb8b468e8682ba0961826b2, type: 3}
+    activeTex: {fileID: 2800000, guid: 497bbe1c56d5442b1bea3739e80673a1, type: 3}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: -1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineInteractions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  bins: []
   invVars: []
   unhandledCombine: {fileID: 0}
   unhandledHotspot: {fileID: 0}
