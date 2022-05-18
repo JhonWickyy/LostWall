@@ -56,7 +56,7 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 11400000, guid: 2c703c2c2d8044e7992fe078f78a4e2c, type: 2}
+    useActionList: {fileID: 11400000, guid: ca3b383851e224c7cac7a7454a2b9eee, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
@@ -277,6 +277,61 @@ MonoBehaviour:
       label: on
       lineID: -1
     useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineInteractions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  - label: item_candle
+    id: 5
+    altLabel: "\u8721\u70DB"
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 5a92dd715310c4e90b5ce6207f024c6a, type: 3}
+    activeTex: {fileID: 0}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: -1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 11400000, guid: 116447b9e89094f5aa39a8f7b30ae878, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []

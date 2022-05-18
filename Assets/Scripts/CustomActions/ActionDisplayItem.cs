@@ -31,7 +31,7 @@ namespace AC
 
 		// Declare properties here
 		public override ActionCategory Category { get { return ActionCategory.Custom; }}
-		public override string Title { get { return "DisplayItem"; }}
+		public override string Title { get { return "展示物品"; }}
 		public override string Description { get { return "Display Item Details"; }}
 
 

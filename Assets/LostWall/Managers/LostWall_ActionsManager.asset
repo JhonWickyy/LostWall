@@ -875,16 +875,16 @@ MonoBehaviour:
       Variable in the Variables Manager.
     isEnabled: 1
     color: {r: 1, g: 1, b: 1, a: 1}
-  - fileName: ActionDialogue
-    category: 20
-    title: Dialogue
-    description: Show Dialogue
-    isEnabled: 1
-    color: {r: 1, g: 1, b: 1, a: 1}
   - fileName: ActionDisplayItem
     category: 20
-    title: DisplayItem
+    title: "\u5C55\u793A\u7269\u54C1"
     description: Display Item Details
+    isEnabled: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - fileName: ActionGlobalLight
+    category: 20
+    title: "\u73AF\u5883\u5149\u63A7\u5236"
+    description: This is a blank Action template.
     isEnabled: 1
     color: {r: 1, g: 1, b: 1, a: 1}
   defaultActionCategoryDatas: []
