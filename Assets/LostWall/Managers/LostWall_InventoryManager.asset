@@ -331,13 +331,13 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 11400000, guid: 116447b9e89094f5aa39a8f7b30ae878, type: 2}
+    useActionList: {fileID: 0}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
     combineActionList: []
     combineID: 
-    unhandledActionList: {fileID: 0}
+    unhandledActionList: {fileID: 11400000, guid: 496795a73a22446af914d9ae9049983f, type: 2}
     unhandledCombineActionList: {fileID: 0}
     carryOnStartID: -1
     useSeparateSlots: 0

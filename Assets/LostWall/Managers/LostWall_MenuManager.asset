@@ -5534,6 +5534,7 @@ MonoBehaviour:
   visibleElements:
   - {fileID: -2822245227421872344}
   - {fileID: -8449960182163758660}
+  - {fileID: 0}
   transitionProgress: 0
   appearType: 7
   speechMenuType: 0

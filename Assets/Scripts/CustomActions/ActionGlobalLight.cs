@@ -27,7 +27,7 @@ public class ActionGlobalLight : AC.Action
     // Declare variables here
     [SerializeField] public Color globalLightColor;
     private Light2D globalLight;
-
+    
     public override float Run()
     {
         if (globalLight == null)
