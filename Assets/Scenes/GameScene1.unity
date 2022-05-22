@@ -3113,7 +3113,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 3635333594693567554}
   parameterID: -1
   constantID: 169920
-  editingAnimEngine: {fileID: 894768838}
+  editingAnimEngine: {fileID: 696824989}
   isPlayer: 0
   playerID: -1
   animChar: {fileID: 8456310287915871590}
@@ -4504,6 +4504,20 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &696824989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!114 &702424091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5610,7 +5624,7 @@ MonoBehaviour:
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3635333594693567554}
   ShowImage: {fileID: -8201785235260945776, guid: ffbeb196ff0244098be27fedd9b9c7ed, type: 3}
-  SpriteTarget: {fileID: 0}
+  SpriteTarget: {fileID: 1864454341}
 --- !u!114 &807937109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5918,20 +5932,6 @@ MonoBehaviour:
   constantID: 473370
   retainInPrefab: 0
   autoManual: 0
---- !u!114 &894768838
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
 --- !u!114 &923941696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10473,7 +10473,7 @@ MonoBehaviour:
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3635333594693567554}
   ShowImage: {fileID: 7899926147481259624, guid: ffbeb196ff0244098be27fedd9b9c7ed, type: 3}
-  SpriteTarget: {fileID: 0}
+  SpriteTarget: {fileID: 1864454340}
 --- !u!1 &1713523623
 GameObject:
   m_ObjectHideFlags: 0
@@ -10693,7 +10693,7 @@ MonoBehaviour:
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3635333594693567554}
   ShowImage: {fileID: 2258565467276392928, guid: ffbeb196ff0244098be27fedd9b9c7ed, type: 3}
-  SpriteTarget: {fileID: 0}
+  SpriteTarget: {fileID: 1864454342}
 --- !u!1 &1749114469
 GameObject:
   m_ObjectHideFlags: 0
@@ -17502,10 +17502,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 924284456}
     m_Modifications:
-    - target: {fileID: 403966774, guid: 4ef807f390a2042d6907e5cd87ca4dd7, type: 3}
-      propertyPath: m_SortingOrder
-      value: 16
-      objectReference: {fileID: 0}
     - target: {fileID: 2933323089270834456, guid: 4ef807f390a2042d6907e5cd87ca4dd7, type: 3}
       propertyPath: m_Name
       value: Wei
@@ -17555,22 +17551,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6531692851376109621, guid: 4ef807f390a2042d6907e5cd87ca4dd7, type: 3}
-      propertyPath: oneClick
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6531692851376109621, guid: 4ef807f390a2042d6907e5cd87ca4dd7, type: 3}
-      propertyPath: provideUseInteraction
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6531692851376109621, guid: 4ef807f390a2042d6907e5cd87ca4dd7, type: 3}
-      propertyPath: useButtons.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6531692851376109621, guid: 4ef807f390a2042d6907e5cd87ca4dd7, type: 3}
-      propertyPath: useButtons.Array.data[0].proximity
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6531692851376109621, guid: 4ef807f390a2042d6907e5cd87ca4dd7, type: 3}
       propertyPath: invButtons.Array.data[0].interaction
       value: 
       objectReference: {fileID: 3635333594693567554}
@@ -17582,14 +17562,6 @@ PrefabInstance:
       propertyPath: useButtons.Array.data[0].interaction
       value: 
       objectReference: {fileID: 8557358647403663644}
-    - target: {fileID: 6531692851376109621, guid: 4ef807f390a2042d6907e5cd87ca4dd7, type: 3}
-      propertyPath: useButtons.Array.data[0].parameterID
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6531692851376109621, guid: 4ef807f390a2042d6907e5cd87ca4dd7, type: 3}
-      propertyPath: useButtons.Array.data[0].invParameterID
-      value: -1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ef807f390a2042d6907e5cd87ca4dd7, type: 3}
 --- !u!4 &8456310287915871589 stripped
