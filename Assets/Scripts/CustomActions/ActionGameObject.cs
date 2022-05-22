@@ -25,7 +25,6 @@ public class ActionGameObject : AC.Action
     // Declare variables here
     [SerializeField] public GameObject GameObject;
     public ChangeType ChangeType = ChangeType.Enable;
-    public string MenuItem;
 
     public override float Run()
     {
@@ -36,11 +35,6 @@ public class ActionGameObject : AC.Action
             if (GameObject != null)
             {
                 GameObject.SetActive(ChangeType == ChangeType.Enable);
-            }
-
-            if (!string.IsNullOrEmpty(MenuItem))
-            {
-                
             }
             
             return defaultPauseTime;
@@ -64,7 +58,6 @@ public class ActionGameObject : AC.Action
     public override void ShowGUI()
     {
         GameObject = (GameObject) EditorGUILayout.ObjectField("GameObject to affect:", GameObject, typeof (GameObject), true);
-        MenuItem = EditorGUILayout.TextArea("Change to make:", MenuItem);
         ChangeType = (ChangeType) EditorGUILayout.EnumPopup ("Change to make:", ChangeType);
     }
 

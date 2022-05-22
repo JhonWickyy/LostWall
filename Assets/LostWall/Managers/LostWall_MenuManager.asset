@@ -392,7 +392,7 @@ MonoBehaviour:
   numSlots: 1
   uiButton: {fileID: 0}
   uiPointerState: 0
-  _label: Item
+  _label: "\u7269\u54C1"
   hotspotLabel: 
   hotspotLabelID: -1
   anchor: 4
@@ -604,6 +604,68 @@ MonoBehaviour:
   inventoryItemCountDisplay: 0
   containerSelectMode: 1
   preventDefaultClicks: 0
+--- !u!114 &-7309898520060981384
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 611a3370e9fc74eebbb277d7159c4851, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 3
+  title: CandleFire
+  slotSize: {x: 10, y: 5}
+  sizeType: 0
+  positionType: 0
+  slotSpacing: 0
+  lineID: -1
+  alternativeInputButton: 
+  font: {fileID: 0}
+  fontScaleFactor: 2
+  fontColor: {r: 1, g: 1, b: 1, a: 1}
+  fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
+  isVisible: 0
+  isClickable: 0
+  orientation: 1
+  gridWidth: 3
+  backgroundTexture: {fileID: 0}
+  singleSlotBackgrounds: 0
+  highlightTexture: {fileID: 0}
+  hoverSound: {fileID: 0}
+  clickSound: {fileID: 0}
+  changeCursor: 0
+  cursorID: 0
+  linkedUiID: 584366
+  maxAutoWidthFactor: 0.5
+  relativeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  relativePosition: {x: 0, y: 0}
+  numSlots: 1
+  uiImage: {fileID: 0}
+  graphicType: 0
+  graphic:
+    texture: {fileID: 2800000, guid: c14b63541186c43bfa91b0bf77bb80cf, type: 3}
+    isAnimated: 0
+    numFrames: 1
+    numRows: 1
+    numCols: 1
+    size: 0.015
+    animSpeed: 4
+    endAnimOnLastFrame: 0
+    skipFirstFrameWhenLooping: 0
+    clickOffset: {x: 0, y: 0}
+    frameSpeeds: []
+    alwaysAnimate: 0
+  uiRawImage: {fileID: 0}
+  uiImageType: 0
 --- !u!114 &-7118106461407457467
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1275,6 +1337,68 @@ MonoBehaviour:
   autoHandle: 1
   uiHideStyle: 0
   linkUIGraphic: 0
+--- !u!114 &-5587195372706279267
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 611a3370e9fc74eebbb277d7159c4851, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 2
+  title: Candle
+  slotSize: {x: 10, y: 5}
+  sizeType: 0
+  positionType: 0
+  slotSpacing: 0
+  lineID: -1
+  alternativeInputButton: 
+  font: {fileID: 0}
+  fontScaleFactor: 2
+  fontColor: {r: 1, g: 1, b: 1, a: 1}
+  fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
+  isVisible: 0
+  isClickable: 0
+  orientation: 1
+  gridWidth: 3
+  backgroundTexture: {fileID: 0}
+  singleSlotBackgrounds: 0
+  highlightTexture: {fileID: 0}
+  hoverSound: {fileID: 0}
+  clickSound: {fileID: 0}
+  changeCursor: 0
+  cursorID: 0
+  linkedUiID: 581702
+  maxAutoWidthFactor: 0.5
+  relativeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  relativePosition: {x: 0, y: 0}
+  numSlots: 1
+  uiImage: {fileID: 0}
+  graphicType: 0
+  graphic:
+    texture: {fileID: 2800000, guid: 77a70d030262b48198c9b647a9530b95, type: 3}
+    isAnimated: 0
+    numFrames: 1
+    numRows: 1
+    numCols: 1
+    size: 0.015
+    animSpeed: 4
+    endAnimOnLastFrame: 0
+    skipFirstFrameWhenLooping: 0
+    clickOffset: {x: 0, y: 0}
+    frameSpeeds: []
+    alwaysAnimate: 0
+  uiRawImage: {fileID: 0}
+  uiImageType: 0
 --- !u!114 &-5424950199614694741
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1989,7 +2113,7 @@ MonoBehaviour:
   fontScaleFactor: 2
   fontColor: {r: 1, g: 1, b: 1, a: 1}
   fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
-  isVisible: 1
+  isVisible: 0
   isClickable: 1
   orientation: 0
   gridWidth: 3
@@ -2658,9 +2782,6 @@ MonoBehaviour:
   backgroundTexture: {fileID: 2800000, guid: 5f4f3dd6223164fe49aea7eb6c0bc529, type: 3}
   visibleElements:
   - {fileID: 8047385929675919032}
-  - {fileID: 6062662720686222269}
-  - {fileID: 3769770384504114865}
-  - {fileID: -4187228954417001337}
   - {fileID: 6835375019372031420}
   transitionProgress: 0
   appearType: 3
@@ -2719,7 +2840,7 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 69.299995, y: 100.5}
+  biggestElementSize: {x: 0, y: 0}
   rect:
     serializedVersion: 2
     x: 174.3
@@ -3032,7 +3153,7 @@ MonoBehaviour:
   numSlots: 1
   uiButton: {fileID: 0}
   uiPointerState: 0
-  _label: Menu
+  _label: "\u83DC\u5355"
   hotspotLabel: 
   hotspotLabelID: -1
   anchor: 4
@@ -5445,7 +5566,7 @@ MonoBehaviour:
   fontScaleFactor: 2
   fontColor: {r: 1, g: 1, b: 1, a: 1}
   fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
-  isVisible: 1
+  isVisible: 0
   isClickable: 1
   orientation: 0
   gridWidth: 3
@@ -5534,7 +5655,6 @@ MonoBehaviour:
   visibleElements:
   - {fileID: -2822245227421872344}
   - {fileID: -8449960182163758660}
-  - {fileID: 0}
   transitionProgress: 0
   appearType: 7
   speechMenuType: 0
@@ -5549,6 +5669,8 @@ MonoBehaviour:
   elements:
   - {fileID: -2822245227421872344}
   - {fileID: -8449960182163758660}
+  - {fileID: -5587195372706279267}
+  - {fileID: -7309898520060981384}
   spacing: 0.5
   sizeType: 0
   autoSizeEveryFrame: 0
@@ -6250,7 +6372,7 @@ MonoBehaviour:
   fontScaleFactor: 2
   fontColor: {r: 1, g: 1, b: 1, a: 1}
   fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
-  isVisible: 1
+  isVisible: 0
   isClickable: 1
   orientation: 0
   gridWidth: 3
