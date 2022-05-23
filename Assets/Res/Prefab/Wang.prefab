@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 1220644529664206282}
   - component: {fileID: 1220644529664206280}
   - component: {fileID: 1220644529664206281}
+  - component: {fileID: 5669444639746604297}
   m_Layer: 0
   m_Name: "\u5DE6\u5C0F\u81C2"
   m_TagString: Untagged
@@ -135,6 +136,21 @@ MonoBehaviour:
     m_Extent: {x: 0.55615, y: 1.087, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
+--- !u!114 &5669444639746604297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220644529664206283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 132520
+  retainInPrefab: 1
+  autoManual: 0
 --- !u!1 &1220644529695629068
 GameObject:
   m_ObjectHideFlags: 0
@@ -702,6 +718,7 @@ GameObject:
   - component: {fileID: 1220644530011158689}
   - component: {fileID: 1220644530011158695}
   - component: {fileID: 1220644530011158688}
+  - component: {fileID: 8526790190215572691}
   m_Layer: 0
   m_Name: "\u53F3\u5C0F\u81C2"
   m_TagString: Untagged
@@ -797,6 +814,21 @@ MonoBehaviour:
     m_Extent: {x: 0.78875774, y: 1.0608642, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
+--- !u!114 &8526790190215572691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220644530011158690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 132702
+  retainInPrefab: 1
+  autoManual: 0
 --- !u!1 &1220644530024453894
 GameObject:
   m_ObjectHideFlags: 0
@@ -868,6 +900,7 @@ GameObject:
   - component: {fileID: 1220644530338196635}
   - component: {fileID: 1220644530338196633}
   - component: {fileID: 1220644530338196634}
+  - component: {fileID: 7936220053772057418}
   m_Layer: 0
   m_Name: "\u5934"
   m_TagString: Untagged
@@ -960,6 +993,21 @@ MonoBehaviour:
     m_Extent: {x: 0.63500005, y: 0.79000014, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
+--- !u!114 &7936220053772057418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220644530338196644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 132328
+  retainInPrefab: 1
+  autoManual: 0
 --- !u!1 &1220644530340408827
 GameObject:
   m_ObjectHideFlags: 0

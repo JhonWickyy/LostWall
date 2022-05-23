@@ -26,7 +26,8 @@ namespace AC
 
 		[SerializeField] public Sprite ShowImage;
 		[SerializeField] public GameObject SpriteTarget;
-
+		public int parameterID;
+		public int constantID;
 		public override float Run()
 		{
 			if (!isRunning)
@@ -46,15 +47,30 @@ namespace AC
 				return 0f;
 			}
 		}
+		
+		override public void AssignValues ()
+		{
+			SpriteTarget = AssignFile (constantID, SpriteTarget);
+		}
 
 #if UNITY_EDITOR
 
-		public override void ShowGUI()
+		public override void ShowGUI(List<ActionParameter> parameters)
 		{
-			ShowImage = (Sprite) EditorGUILayout.ObjectField("图片:", ShowImage, typeof(Sprite), false);
-			SpriteTarget = (GameObject) EditorGUILayout.ObjectField("修改对象:", SpriteTarget, typeof(GameObject), true);
+			parameterID = Action.ChooseParameterGUI ("GameObject to affect:", parameters, parameterID, ParameterType.GameObject);
+			if (parameterID >= 0)
+			{
+				SpriteTarget = null;
+				constantID = 0;
+			}
+			else
+			{
+				ShowImage = (Sprite) EditorGUILayout.ObjectField("图片:", ShowImage, typeof(Sprite), false);
+				SpriteTarget = (GameObject) EditorGUILayout.ObjectField("修改对象:", SpriteTarget, typeof(GameObject), true);
+				constantID = FieldToID (SpriteTarget, constantID);
+				SpriteTarget = IDToField (SpriteTarget, constantID, true);	
+			}
 		}
-
 
 		public override string SetLabel()
 		{
