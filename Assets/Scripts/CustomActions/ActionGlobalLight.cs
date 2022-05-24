@@ -16,7 +16,7 @@ public class ActionGlobalLight : AC.Action
 
     public override string Title
     {
-        get { return "环境光控制"; }
+        get { return "Light Control"; }
     }
 
     public override string Description
@@ -26,13 +26,10 @@ public class ActionGlobalLight : AC.Action
 
     // Declare variables here
     [SerializeField] public Color globalLightColor;
-    private Light2D globalLight;
+    [SerializeField] public Light2D globalLight;
     
     public override float Run()
     {
-        if (globalLight == null)
-            globalLight = ConstantID.GetComponent<Light2D>(66058);
-
         if (!isRunning)
         {
             isRunning = true;
@@ -59,7 +56,9 @@ public class ActionGlobalLight : AC.Action
 
     public override void ShowGUI()
     {
-        globalLightColor = EditorGUILayout.ColorField("灯光颜色", globalLightColor);
+        globalLightColor = EditorGUILayout.ColorField("LightColor", globalLightColor);
+        globalLight = (Light2D) EditorGUILayout.ObjectField("LightTarget:", globalLight, typeof(Light2D), true);
+
     }
 
 

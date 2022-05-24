@@ -31,7 +31,7 @@ namespace AC
 
 		// Declare properties here
 		public override ActionCategory Category { get { return ActionCategory.Custom; }}
-		public override string Title { get { return "展示物品"; }}
+		public override string Title { get { return "Display"; }}
 		public override string Description { get { return "Display Item Details"; }}
 
 
@@ -39,6 +39,7 @@ namespace AC
 		[SerializeField]  public Sprite ShowImage;
 		[SerializeField] public string Txt_describe;
 		[SerializeField] public float AutoCloseTime = 4.0f;
+		[SerializeField] public bool PauseWhenShow = true;
 		
 
 		public override float Run ()
@@ -86,9 +87,10 @@ namespace AC
 
 		public override void ShowGUI ()
 		{
-			ShowImage = (Sprite) EditorGUILayout.ObjectField("道具图片:", ShowImage, typeof(Sprite), false);
-			Txt_describe = EditorGUILayout.TextField ("展示文本:", Txt_describe);
-			AutoCloseTime = EditorGUILayout.FloatField("自动关闭时间(为0则需手动关闭)：", AutoCloseTime);
+			ShowImage = (Sprite) EditorGUILayout.ObjectField("Item Image:", ShowImage, typeof(Sprite), false);
+			Txt_describe = EditorGUILayout.TextField ("Show Content:", Txt_describe);
+			AutoCloseTime = EditorGUILayout.FloatField("Auto Close Time：", AutoCloseTime);
+			PauseWhenShow = EditorGUILayout.Toggle("PauseWhenEnable", PauseWhenShow);
 		}
 		
 

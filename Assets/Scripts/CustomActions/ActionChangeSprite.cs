@@ -47,7 +47,12 @@ namespace AC
 				return 0f;
 			}
 		}
-		
+
+		public override void Skip()
+		{
+			Run();
+		}
+
 		override public void AssignValues ()
 		{
 			SpriteTarget = AssignFile (constantID, SpriteTarget);

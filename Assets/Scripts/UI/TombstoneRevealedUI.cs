@@ -10,10 +10,37 @@ public class TombstoneRevealedUI : MonoBehaviour
 {
     public Button[] TombStones;
     public RectTransform[] Slots;
+    private int[] finalSlotTombStones;
     private int[] slotTombStones = new int[5];
     private int curSelect = -1;
     private RectTransform rectTransform;
     Vector2 pos = Vector2.one;
+
+    public void SetFinalTombstone(string org_slots, string end_slots)
+    {
+        string[] arr = end_slots.Split(',');
+        if (arr != null && arr.Length == 5)
+        {
+            finalSlotTombStones = new int[5];
+            for (int i = 0; i < arr.Length; i++)
+            {
+                finalSlotTombStones[i] = int.Parse(arr[i]) - 1;
+            }
+        }
+        
+        arr = org_slots.Split(',');
+        if (arr != null && arr.Length == 5)
+        {
+            slotTombStones = new int[5];
+            for (int i = 0; i < arr.Length; i++)
+            {
+                int index = int.Parse(arr[i]) - 1;
+                slotTombStones[i] = index;
+                TombStones[index].GetComponent<RectTransform>().localPosition = Slots[i].localPosition;
+            }
+        }
+    }
+    
     void Start()
     {
         rectTransform = GetComponent<RectTransform>();
@@ -96,7 +123,7 @@ public class TombstoneRevealedUI : MonoBehaviour
         bool bEnd = true;
         for (int i = 0; i < slotTombStones.Length; i++)
         {
-            bEnd &= slotTombStones[i] == i;
+            bEnd &= slotTombStones[i] == finalSlotTombStones[i];
         }
 
         if (bEnd)
