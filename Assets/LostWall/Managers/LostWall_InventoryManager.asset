@@ -240,7 +240,7 @@ MonoBehaviour:
   - label: item_sewing
     id: 4
     altLabel: "\u9488"
-    carryOnStart: 0
+    carryOnStart: 1
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []

@@ -6,18 +6,20 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using Button = UnityEngine.UI.Button;
 
-public class TombstoneRevealedUI : MonoBehaviour
+public class PuzzleUI : MonoBehaviour
 {
     public Button[] TombStones;
     public RectTransform[] Slots;
-    private int[] finalSlotTombStones;
-    private int[] slotTombStones = new int[5];
+    private int[] finalSlotTombStones = new int[]{1,2,3,4,5};
+    private int[] slotTombStones = new int[]{1,2,3,4,5};
     private int curSelect = -1;
     private RectTransform rectTransform;
     Vector2 pos = Vector2.one;
+    private ActionPuzzle.UIType type;
 
-    public void SetFinalTombstone(string org_slots, string end_slots)
+    public void SetFinalTombstone(string org_slots, string end_slots, ActionPuzzle.UIType type)
     {
+        this.type = type;
         string[] arr = end_slots.Split(',');
         if (arr != null && arr.Length == 5)
         {
@@ -36,7 +38,7 @@ public class TombstoneRevealedUI : MonoBehaviour
             {
                 int index = int.Parse(arr[i]) - 1;
                 slotTombStones[i] = index;
-                TombStones[index].GetComponent<RectTransform>().localPosition = Slots[i].localPosition;
+                if(index != -1) TombStones[index].GetComponent<RectTransform>().localPosition = Slots[i].localPosition;
             }
         }
     }
@@ -128,7 +130,7 @@ public class TombstoneRevealedUI : MonoBehaviour
 
         if (bEnd)
         {
-            PlayerMenus.GetMenuWithName("TombstoneRevealedUI").TurnOff();
+            PlayerMenus.GetMenuWithName(type.ToString()).TurnOff();
         }
     }
 }

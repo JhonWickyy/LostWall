@@ -877,19 +877,31 @@ MonoBehaviour:
     color: {r: 1, g: 1, b: 1, a: 1}
   - fileName: ActionDisplayItem
     category: 20
-    title: "\u5C55\u793A\u7269\u54C1"
+    title: Display
+    description: Display Item Details
+    isEnabled: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - fileName: ActionGlobalLight
+    category: 20
+    title: Light Control
+    description: This is a blank Action template.
+    isEnabled: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - fileName: ActionPuzzle
+    category: 20
+    title: Puzzle
+    description: Display Item Details
+    isEnabled: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - fileName: ActionChangeSprite
+    category: 20
+    title: "\u4FEE\u6539sprite"
     description: Display Item Details
     isEnabled: 1
     color: {r: 1, g: 1, b: 1, a: 1}
   - fileName: ActionGameObject
     category: 20
     title: "\u663E\u793A\u6216\u9690\u85CF"
-    description: This is a blank Action template.
-    isEnabled: 1
-    color: {r: 1, g: 1, b: 1, a: 1}
-  - fileName: ActionGlobalLight
-    category: 20
-    title: "\u73AF\u5883\u5149\u63A7\u5236"
     description: This is a blank Action template.
     isEnabled: 1
     color: {r: 1, g: 1, b: 1, a: 1}
