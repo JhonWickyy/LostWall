@@ -507,7 +507,11 @@ MonoBehaviour:
     useActionList: {fileID: 0}
     lookActionList: {fileID: 0}
     interactions: []
-    combineInteractions: []
+    combineInteractions:
+    - actionList: {fileID: 11400000, guid: 764864579bafd48aca4f797c225a5194, type: 2}
+      idPlusOne: 1
+      combineID: 9
+      disabledOnStart: 0
     combineActionList: []
     combineID: 
     unhandledActionList: {fileID: 0}
@@ -676,7 +680,11 @@ MonoBehaviour:
     useActionList: {fileID: 0}
     lookActionList: {fileID: 0}
     interactions: []
-    combineInteractions: []
+    combineInteractions:
+    - actionList: {fileID: 11400000, guid: 8a50282189f9844d394ce7772f324611, type: 2}
+      idPlusOne: 1
+      combineID: 4
+      disabledOnStart: 0
     combineActionList: []
     combineID: 
     unhandledActionList: {fileID: 0}
