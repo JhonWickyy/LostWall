@@ -157,7 +157,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 486
+    y: 534
     width: 300
     height: 172
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -217,7 +217,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 4506
+    y: 4284
     width: 300
     height: 112
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -422,7 +422,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 2668
+    y: 2842
     width: 300
     height: 300
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -430,7 +430,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 1563940037754819948}
   parameterID: -1
   constantID: 169920
-  editingAnimEngine: {fileID: 2045240289}
+  editingAnimEngine: {fileID: 1555069961}
   isPlayer: 0
   playerID: -1
   animChar: {fileID: 8456310287915871590}
@@ -630,7 +630,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 5181
+    y: 5613
     width: 300
     height: 180
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -643,20 +643,6 @@ MonoBehaviour:
   changeType: 1
   number: 0
 --- !u!114 &84286455
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
---- !u!114 &84885279
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -704,7 +690,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 2040
+    y: 2214
     width: 300
     height: 280
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -741,7 +727,7 @@ MonoBehaviour:
   playMode: 0
   animationEngine: 0
   customClassName: 
-  animEngine: {fileID: 959606032}
+  animEngine: {fileID: 460693983}
 --- !u!1 &105471763
 GameObject:
   m_ObjectHideFlags: 0
@@ -909,7 +895,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 2379
+    y: 2523
     width: 300
     height: 187
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -959,8 +945,8 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 2
-    skipActionActual: {fileID: 1319029093}
+    skipAction: 3
+    skipActionActual: {fileID: 2105911945}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -969,15 +955,16 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 220
+    y: 176
     width: 300
-    height: 198
+    height: 218
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 7902451959732611524}
   ShowImage: {fileID: 21300000, guid: f438c4a501d804a3ab7499d665f32d9d, type: 3}
   Txt_describe: "\u4E00\u64AE\u5934\u53D1"
   AutoCloseTime: 3
+  PauseWhenShow: 1
 --- !u!1 &141924244
 GameObject:
   m_ObjectHideFlags: 0
@@ -1362,6 +1349,78 @@ MonoBehaviour:
   constantID: 473364
   retainInPrefab: 0
   autoManual: 0
+--- !u!114 &165814797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2314b8a5519074a1fadc27b4aa968f97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 1
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 2
+    skipAction: 1
+    skipActionActual: {fileID: 1112540346}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 176
+    width: 300
+    height: 252
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 5194890700251742453}
+  parameterID: -1
+  constantID: 0
+  _anim: {fileID: 1249863742}
+  runtimeAnim: {fileID: 0}
+  clip: {fileID: 7400000, guid: f5bae2dd249fa4f7c9200c14d5231829, type: 2}
+  fadeTime: 0
+  clipParameterID: -1
+  _anim2D: {fileID: 0}
+  runtimeAnim2D: {fileID: 0}
+  animator: {fileID: 0}
+  runtimeAnimator: {fileID: 0}
+  clip2D: 
+  clip2DParameterID: -1
+  wrapMode2D: 0
+  layerInt: 0
+  shapeObject: {fileID: 0}
+  runtimeShapeObject: {fileID: 0}
+  shapeKey: 0
+  shapeValue: 0
+  isPlayer: 0
+  methodMecanim: 0
+  mecanimParameterType: 0
+  parameterName: 
+  parameterNameID: -1
+  parameterValue: 0
+  parameterValueParameterID: -1
+  method: 0
+  blendMode: 0
+  playMode: 0
+  animationEngine: 0
+  customClassName: 
+  animEngine: {fileID: 1724197885}
 --- !u!114 &173441953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1396,7 +1455,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 2615
+    y: 3157
     width: 300
     height: 180
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1487,7 +1546,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1194.8453
+    y: 1304
     width: 300
     height: 172
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1583,7 +1642,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 2473
+    y: 3015
     width: 300
     height: 112
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2050,7 +2109,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 2162
+    y: 2306
     width: 300
     height: 187
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2112,7 +2171,7 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 192
+    height: 172
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 5927633294041947451}
@@ -2318,7 +2377,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 4383
+    y: 4815
     width: 300
     height: 167
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2378,7 +2437,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 2350
+    y: 2524
     width: 300
     height: 288
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2393,6 +2452,63 @@ MonoBehaviour:
   playerID: -1
   playerParameterID: -1
   charToMove: {fileID: 8456310287915871590}
+  speed: 0
+  pathFind: 1
+  doFloat: 0
+  doTimeLimit: 0
+  maxTimeParameterID: -1
+  maxTime: 10
+  onReachTimeLimit: 0
+  faceAfter: 0
+--- !u!114 &327914764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0643024da91f402a9281e781736a4c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 1
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 2
+    skipAction: 1
+    skipActionActual: {fileID: 501028801}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 14
+    width: 300
+    height: 240
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 3635333594693567554}
+  charToMoveParameterID: -1
+  markerParameterID: -1
+  charToMoveID: 0
+  markerID: 0
+  marker: {fileID: 3266172895934917028}
+  isPlayer: 1
+  playerID: -1
+  playerParameterID: -1
+  charToMove: {fileID: 0}
   speed: 0
   pathFind: 1
   doFloat: 0
@@ -2435,9 +2551,9 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 472
+    y: 708
     width: 300
-    height: 182
+    height: 202
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 5194890700251742453}
@@ -2494,8 +2610,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 314
-    y: 408
+    x: 14
+    y: 750
     width: 300
     height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2668,18 +2784,18 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 688
+    y: 736
     width: 300
-    height: 172
+    height: 220
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 8557358647403663644}
-  constantID: 0
+  constantID: 169920
   parameterID: -1
   messageParameterID: -1
-  isPlayer: 1
+  isPlayer: 0
   playerID: 0
-  speaker: {fileID: 0}
+  speaker: {fileID: 8456310287915871590}
   messageText: "\u4F60\u2026\u2026\u507F\u6211\u547D\u2026\u2026"
   lineID: -1
   multiLineIDs: 
@@ -2773,7 +2889,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1878
+    y: 2052
     width: 300
     height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2841,6 +2957,20 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &460693983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!1 &473009993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2977,18 +3107,18 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1541
+    y: 1637
     width: 300
-    height: 172
+    height: 220
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 8557358647403663644}
-  constantID: 0
+  constantID: 169920
   parameterID: -1
   messageParameterID: -1
-  isPlayer: 1
+  isPlayer: 0
   playerID: 0
-  speaker: {fileID: 0}
+  speaker: {fileID: 8456310287915871590}
   messageText: "\u507F\u2026\u2026\u547D\u2026\u2026"
   lineID: -1
   multiLineIDs: 
@@ -3027,7 +3157,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 10
+    skipAction: 11
     skipActionActual: {fileID: 1104449991}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -3037,7 +3167,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 14
+    y: 284
     width: 300
     height: 300
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3045,7 +3175,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 3635333594693567554}
   parameterID: -1
   constantID: 169920
-  editingAnimEngine: {fileID: 1071168861}
+  editingAnimEngine: {fileID: 624384863}
   isPlayer: 0
   playerID: -1
   animChar: {fileID: 8456310287915871590}
@@ -3212,10 +3342,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 12
-    y: 248
+    x: 14
+    y: 216
     width: 300
-    height: 160
+    height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 5927633294041947451}
@@ -3587,7 +3717,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 20
+    skipAction: 19
     skipActionActual: {fileID: 1016266546}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -3608,66 +3738,6 @@ MonoBehaviour:
   spriteFader: {fileID: 505900871}
   fadeType: 1
   fadeSpeed: 1
---- !u!114 &589644208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 0
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 3032
-    width: 300
-    height: 172
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 3510976711957495056}
-  constantID: 0
-  parameterID: -1
-  messageParameterID: -1
-  isPlayer: 1
-  playerID: -1
-  speaker: {fileID: 0}
-  messageText: "\u86C7\u53D8\u6210\u4E86\u9501\u94FE\uFF1F"
-  lineID: -1
-  multiLineIDs: 
-  isBackground: 0
-  noAnimation: 0
-  headClip: {fileID: 0}
-  mouthClip: {fileID: 0}
-  play2DHeadAnim: 0
-  headClip2D: 
-  headLayer: 0
-  play2DMouthAnim: 0
-  mouthClip2D: 
-  mouthLayer: 0
-  waitTimeOffset: 0
 --- !u!1 &592960887
 GameObject:
   m_ObjectHideFlags: 0
@@ -3835,6 +3905,20 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 3948129479406091650}
   GameObject: {fileID: 3441736028800105049}
   ChangeType: 0
+--- !u!114 &624384863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!114 &624606221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3859,7 +3943,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 19
+    skipAction: 18
     skipActionActual: {fileID: 18174639}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -3869,7 +3953,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 4284
+    y: 4062
     width: 300
     height: 192
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3921,9 +4005,9 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 3436
+    y: 3234
     width: 300
-    height: 192
+    height: 172
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3510976711957495056}
@@ -3947,20 +4031,6 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
---- !u!114 &635928856
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
 --- !u!1 &644784921 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2933323089270834456, guid: 4ef807f390a2042d6907e5cd87ca4dd7, type: 3}
@@ -4148,6 +4218,105 @@ MonoBehaviour:
   soundAction: 0
   affectChildren: 0
   autoEndOtherMusicWhenPlayed: 1
+--- !u!1 &671586635
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 671586636}
+  - component: {fileID: 671586637}
+  - component: {fileID: 671586638}
+  m_Layer: 0
+  m_Name: WangBone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &671586636
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 671586635}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.94, y: -0.9, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1994884154}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &671586637
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 671586635}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 50
+  m_Sprite: {fileID: 21300000, guid: 93f85eb1d1fcd40c0894d72208443d00, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_FlipX: 1
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 9.29, y: 19.84}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!111 &671586638
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 671586635}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 562cda2a2dc4a490198a04a80cee2cb0, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &673748761
 GameObject:
   m_ObjectHideFlags: 0
@@ -4312,6 +4481,20 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &695102233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!114 &702424091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4501,16 +4684,16 @@ MonoBehaviour:
     x: 14
     y: 284
     width: 300
-    height: 172
+    height: 220
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 8557358647403663644}
-  constantID: 0
+  constantID: 169920
   parameterID: -1
   messageParameterID: -1
-  isPlayer: 1
+  isPlayer: 0
   playerID: 0
-  speaker: {fileID: 0}
+  speaker: {fileID: 8456310287915871590}
   messageText: "\u90FD\u602A\u4F60\u2026\u2026"
   lineID: -1
   multiLineIDs: 
@@ -4550,7 +4733,7 @@ MonoBehaviour:
   endings:
   - resultAction: 2
     skipAction: 11
-    skipActionActual: {fileID: 589644208}
+    skipActionActual: {fileID: 1652882728}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -4718,7 +4901,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 946
+    y: 1122
     width: 300
     height: 152
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -4777,8 +4960,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 6
-    y: 1407.2952
+    x: 14
+    y: 1506
     width: 300
     height: 112
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -4810,7 +4993,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 9
+    skipAction: 10
     skipActionActual: {fileID: 1996746088}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -4820,7 +5003,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1070
+    y: 1532
     width: 300
     height: 152
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -4872,9 +5055,9 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 2094
+    y: 2596
     width: 300
-    height: 167
+    height: 187
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3635333594693567554}
@@ -4977,7 +5160,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 2596
+    y: 2740
     width: 300
     height: 187
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -5074,7 +5257,7 @@ MonoBehaviour:
   playMode: 2
   animationEngine: 0
   customClassName: 
-  animEngine: {fileID: 1419881460}
+  animEngine: {fileID: 1321934852}
 --- !u!114 &767118088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5135,6 +5318,48 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &767925470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14403ee4cba93471fb52c1d589c4f523, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 2
+    skipAction: 7
+    skipActionActual: {fileID: 165814797}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 14
+    width: 300
+    height: 132
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 5194890700251742453}
+  GameObject: {fileID: 1249863740}
+  ChangeType: 0
 --- !u!114 &770448095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5274,7 +5499,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1945
+    y: 2089
     width: 300
     height: 187
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -5334,7 +5559,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1324
+    y: 1420
     width: 300
     height: 187
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -5454,16 +5679,16 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 674
+    y: 1008
     width: 300
-    height: 158
+    height: 222
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3635333594693567554}
   ShowImage: {fileID: -8201785235260945776, guid: ffbeb196ff0244098be27fedd9b9c7ed, type: 3}
   SpriteTarget: {fileID: 0}
   parameterID: -1
-  constantID: 0
+  constantID: 132520
 --- !u!114 &807937109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5498,7 +5723,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 3909
+    y: 4339
     width: 300
     height: 244
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -5561,6 +5786,20 @@ MonoBehaviour:
   journalPageIndex: -1
   journalPageIndexParameterID: -1
   preprocessTextTokens: 0
+--- !u!114 &846446512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!114 &870522838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5844,7 +6083,7 @@ MonoBehaviour:
   playMode: 2
   animationEngine: 0
   customClassName: 
-  animEngine: {fileID: 2069350026}
+  animEngine: {fileID: 846446512}
 --- !u!1 &924284455
 GameObject:
   m_ObjectHideFlags: 0
@@ -5951,7 +6190,7 @@ MonoBehaviour:
   spriteFader: {fileID: 42412522}
   fadeType: 1
   fadeSpeed: 1
---- !u!114 &959606032
+--- !u!114 &946231622
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5999,7 +6238,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 3637
+    y: 4065
     width: 300
     height: 244
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -6175,7 +6414,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 4300
+    y: 4312
     width: 300
     height: 112
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -6237,7 +6476,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 22
+    skipAction: 21
     skipActionActual: {fileID: 1650653217}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -6289,7 +6528,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1844
+    y: 2346
     width: 300
     height: 220
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -6417,8 +6656,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 329
-    y: 229
+    x: 14
+    y: 588
     width: 300
     height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -6625,20 +6864,6 @@ MonoBehaviour:
   journalPageIndex: -1
   journalPageIndexParameterID: -1
   preprocessTextTokens: 0
---- !u!114 &1071168861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
 --- !u!114 &1073292359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6683,6 +6908,20 @@ MonoBehaviour:
   SpriteTarget: {fileID: 0}
   parameterID: -1
   constantID: 132520
+--- !u!114 &1073694990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!1 &1085922501
 GameObject:
   m_ObjectHideFlags: 0
@@ -6835,7 +7074,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 027a7b92843b443e09e06778544c421c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6881,7 +7120,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1406
+    y: 1580
     width: 300
     height: 280
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -6918,7 +7157,7 @@ MonoBehaviour:
   playMode: 0
   animationEngine: 0
   customClassName: 
-  animEngine: {fileID: 635928856}
+  animEngine: {fileID: 1681049482}
 --- !u!114 &1104449991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6943,7 +7182,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 11
+    skipAction: 12
     skipActionActual: {fileID: 1747986697}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -6953,7 +7192,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 344
+    y: 614
     width: 300
     height: 112
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -6995,9 +7234,9 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 2291
+    y: 2813
     width: 300
-    height: 152
+    height: 172
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3635333594693567554}
@@ -7055,7 +7294,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 222
+    y: 458
     width: 300
     height: 220
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -7116,20 +7355,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1144742791
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
 --- !u!114 &1169516443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7164,7 +7389,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 812
+    y: 748
     width: 300
     height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -7254,7 +7479,7 @@ MonoBehaviour:
   playMode: 0
   animationEngine: 0
   customClassName: 
-  animEngine: {fileID: 1144742791}
+  animEngine: {fileID: 1073694990}
 --- !u!1 &1185684718 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5580190610316847116, guid: 3b7726ca04878434b8274ae6bcfd95d1, type: 3}
@@ -7270,21 +7495,6 @@ Animation:
   m_CorrespondingSourceObject: {fileID: 5580190610316847122, guid: 3b7726ca04878434b8274ae6bcfd95d1, type: 3}
   m_PrefabInstance: {fileID: 5580190611413923042}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1185684721
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1185684718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  constantID: 74630
-  retainInPrefab: 0
-  autoManual: 0
 --- !u!114 &1195720637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7363,8 +7573,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 326
-    y: 15
+    x: 14
+    y: 378
     width: 300
     height: 180
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -7645,6 +7855,105 @@ MonoBehaviour:
   constantID: 473368
   retainInPrefab: 0
   autoManual: 0
+--- !u!1 &1249863740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1249863741}
+  - component: {fileID: 1249863743}
+  - component: {fileID: 1249863742}
+  m_Layer: 0
+  m_Name: WeiFear
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1249863741
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249863740}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.25, y: -0.15, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1994884154}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &1249863742
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249863740}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!212 &1249863743
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249863740}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 51
+  m_Sprite: {fileID: 21300000, guid: 193109339791446c19f61e4ff4bd1b2e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 24.804531, y: 14.11}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!114 &1251701096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7982,7 +8291,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 3365
+    y: 3791
     width: 300
     height: 244
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -8026,7 +8335,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1244
+    y: 1418
     width: 300
     height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -8067,8 +8376,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 10
-    y: 504.3479
+    x: 14
+    y: 646
     width: 300
     height: 112
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -8076,6 +8385,20 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 7902451959732611524}
   GameObject: {fileID: 1422484377007791542}
   ChangeType: 1
+--- !u!114 &1321934852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!114 &1326296673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8110,7 +8433,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 650
+    y: 852
     width: 300
     height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -8162,9 +8485,9 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 224
+    y: 196
     width: 300
-    height: 160
+    height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 4365099346247242230}
@@ -8244,7 +8567,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 4777
+    y: 5209
     width: 300
     height: 172
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -8387,7 +8710,7 @@ MonoBehaviour:
     x: 14
     y: 944
     width: 300
-    height: 172
+    height: 192
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 6093333682252632858}
@@ -8590,20 +8913,6 @@ MonoBehaviour:
   newRelativeVolumeParameterID: -1
   changeTime: 0
   changeTimeParameterID: -1
---- !u!114 &1419881460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
 --- !u!114 &1425950064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8737,7 +9046,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 17
+    skipAction: 16
     skipActionActual: {fileID: 624606221}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -8747,7 +9056,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 4042
+    y: 3820
     width: 300
     height: 212
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -8833,6 +9142,20 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &1458619193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!114 &1476058820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8924,7 +9247,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 3160
+    y: 3172
     width: 300
     height: 212
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -9293,7 +9616,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1743
+    y: 1887
     width: 300
     height: 172
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -9337,7 +9660,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1546730040
 Transform:
   m_ObjectHideFlags: 0
@@ -9436,6 +9759,20 @@ MonoBehaviour:
   constantID: 147388
   retainInPrefab: 0
   autoManual: 0
+--- !u!114 &1555069961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!114 &1556658277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9470,7 +9807,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 4580
+    y: 5012
     width: 300
     height: 167
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -9613,6 +9950,20 @@ MonoBehaviour:
   animationEngine: 0
   customClassName: 
   animEngine: {fileID: 84286455}
+--- !u!114 &1615946772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!114 &1625420008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9647,7 +9998,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 840
+    y: 1014
     width: 300
     height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -9745,7 +10096,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 3
+    skipAction: 4
     skipActionActual: {fileID: 1930530126}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -9755,7 +10106,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1480
+    y: 1962
     width: 300
     height: 152
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -9807,7 +10158,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 3820
+    y: 3598
     width: 300
     height: 192
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -9900,7 +10251,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 3234
+    y: 3032
     width: 300
     height: 172
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -10032,7 +10383,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 2813
+    y: 2957
     width: 300
     height: 300
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -10040,7 +10391,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 8557358647403663644}
   parameterID: -1
   constantID: 169920
-  editingAnimEngine: {fileID: 1964108882}
+  editingAnimEngine: {fileID: 1915308320}
   isPlayer: 0
   playerID: -1
   animChar: {fileID: 8456310287915871590}
@@ -10074,6 +10425,20 @@ MonoBehaviour:
   parameterValueParameterID: -1
   hideHead: 0
   doLoop: 0
+--- !u!114 &1681049482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!114 &1686099929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10134,49 +10499,6 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
---- !u!114 &1699925108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b91067c0f4744b2b9cecc0a528ad886, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 0
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 14
-    width: 300
-    height: 178
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 5194890700251742453}
-  ShowImage: {fileID: 21300000, guid: abbefe2fab794488281eddc640ae8ce8, type: 3}
-  Txt_describe: "\u559F\u7136\u53D8\u6210\uFF08\u7F8E\u672F\u8BBE\u8BA1\u7684\u6050\u6016\u5143\u7D20\uFF09"
-  AutoCloseTime: 4
 --- !u!114 &1701898391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10211,7 +10533,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 3658
+    y: 3436
     width: 300
     height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -10248,7 +10570,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 1
+    skipAction: 2
     skipActionActual: {fileID: 739456862}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -10258,16 +10580,16 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 862
+    y: 1260
     width: 300
-    height: 178
+    height: 242
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3635333594693567554}
   ShowImage: {fileID: 7899926147481259624, guid: ffbeb196ff0244098be27fedd9b9c7ed, type: 3}
   SpriteTarget: {fileID: 0}
   parameterID: -1
-  constantID: 0
+  constantID: 132702
 --- !u!1 &1713523623
 GameObject:
   m_ObjectHideFlags: 0
@@ -10351,6 +10673,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1724197885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!114 &1730859246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10385,7 +10721,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 3712
+    y: 3724
     width: 300
     height: 288
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -10480,16 +10816,16 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 486
+    y: 756
     width: 300
-    height: 158
+    height: 222
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3635333594693567554}
   ShowImage: {fileID: 2258565467276392928, guid: ffbeb196ff0244098be27fedd9b9c7ed, type: 3}
   SpriteTarget: {fileID: 0}
   parameterID: -1
-  constantID: 0
+  constantID: 132328
 --- !u!1 &1749114469
 GameObject:
   m_ObjectHideFlags: 0
@@ -10560,7 +10896,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 52c20da54460749fea2d50a653efa111, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10606,7 +10942,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 4030
+    y: 4042
     width: 300
     height: 240
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -10775,6 +11111,48 @@ MonoBehaviour:
   animationEngine: 0
   customClassName: 
   animEngine: {fileID: 1399366092}
+--- !u!114 &1781382237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14403ee4cba93471fb52c1d589c4f523, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 2
+    skipAction: 4
+    skipActionActual: {fileID: 1326296673}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 690
+    width: 300
+    height: 132
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 1563940037754819948}
+  GameObject: {fileID: 3441736028800105049}
+  ChangeType: 1
 --- !u!114 &1790850855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10913,7 +11291,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 724
+    y: 940
     width: 300
     height: 152
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -10973,9 +11351,9 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 414
+    y: 358
     width: 300
-    height: 160
+    height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 4365099346247242230}
@@ -11055,7 +11433,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 4181
+    y: 4613
     width: 300
     height: 172
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -11195,9 +11573,9 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   endings:
-  - resultAction: 0
-    skipAction: -1
-    skipActionActual: {fileID: 0}
+  - resultAction: 2
+    skipAction: 19
+    skipActionActual: {fileID: 1781382237}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -11208,7 +11586,7 @@ MonoBehaviour:
     x: 14
     y: 528
     width: 300
-    height: 112
+    height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 1563940037754819948}
@@ -11283,8 +11661,8 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 20
-    skipActionActual: {fileID: 1312053137}
+    skipAction: 24
+    skipActionActual: {fileID: 2071977039}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -11293,7 +11671,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 3143
+    y: 3287
     width: 300
     height: 192
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -11362,7 +11740,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1107
+    y: 1203
     width: 300
     height: 187
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -11523,7 +11901,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 3402
+    y: 3414
     width: 300
     height: 280
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -11560,7 +11938,7 @@ MonoBehaviour:
   playMode: 0
   animationEngine: 0
   customClassName: 
-  animEngine: {fileID: 2034913624}
+  animEngine: {fileID: 1458619193}
 --- !u!114 &1906878122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11595,7 +11973,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 890
+    y: 986
     width: 300
     height: 187
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -11637,7 +12015,7 @@ MonoBehaviour:
   isDisplayed: 1
   showComment: 0
   comment: 
-  willWait: 0
+  willWait: 1
   endAction: 0
   skipAction: -1
   skipActionActual: {fileID: 0}
@@ -11645,7 +12023,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 18
+    skipAction: 17
     skipActionActual: {fileID: 708710223}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -11657,7 +12035,7 @@ MonoBehaviour:
     x: 14
     y: 2500
     width: 300
-    height: 280
+    height: 252
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3510976711957495056}
@@ -11692,7 +12070,21 @@ MonoBehaviour:
   playMode: 0
   animationEngine: 0
   customClassName: 
-  animEngine: {fileID: 2091676478}
+  animEngine: {fileID: 695102233}
+--- !u!114 &1915308320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!114 &1922182970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11727,15 +12119,16 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 604
+    y: 520
     width: 300
-    height: 178
+    height: 198
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 4365099346247242230}
   ShowImage: {fileID: 21300000, guid: c69546bf236944c3798ad726d1db4bd2, type: 3}
-  Txt_describe: "\u83B7\u5F97\u6811\u679D\u2B07\uFE0Fx2\uFF0C\u6469\u64E6\u4F7F\u4ED6\u71C3\u70E7\u8D77\u6765\u5427\uFF01"
+  Txt_describe: "\u83B7\u5F97\u6811\u679D\u2B07\uFE0Fx2\uFF0C\u6469\u64E6\u4F7F\u5B83\u70E7\u8D77\u6765\u5427\uFF01"
   AutoCloseTime: 4
+  PauseWhenShow: 1
 --- !u!114 &1930530126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11770,9 +12163,9 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1662
+    y: 2144
     width: 300
-    height: 152
+    height: 172
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3635333594693567554}
@@ -11866,20 +12259,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
---- !u!114 &1964108882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   turningStyle: 1
@@ -12019,6 +12398,8 @@ Transform:
   - {fileID: 1085922502}
   - {fileID: 505900869}
   - {fileID: 1185684719}
+  - {fileID: 671586636}
+  - {fileID: 1249863741}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12046,7 +12427,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 2
+    skipAction: 3
     skipActionActual: {fileID: 1640011871}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -12056,15 +12437,16 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1252
+    y: 1714
     width: 300
-    height: 198
+    height: 218
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3635333594693567554}
   ShowImage: {fileID: 21300000, guid: 3cc9085bd9eea4c0692239d92ae70b6c, type: 3}
   Txt_describe: "\u6811\u679D\u70E7\u5B8C\u4E86"
   AutoCloseTime: 4
+  PauseWhenShow: 1
 --- !u!114 &1998399149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12190,7 +12572,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1002
+    y: 1176
     width: 300
     height: 212
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -12259,34 +12641,6 @@ Transform:
   m_Father: {fileID: 1741695722}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2034913624
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
---- !u!114 &2045240289
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
 --- !u!1 &2050130698
 GameObject:
   m_ObjectHideFlags: 0
@@ -12453,7 +12807,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1716
+    y: 1890
     width: 300
     height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -12485,7 +12839,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 21
+    skipAction: 20
     skipActionActual: {fileID: 1838285964}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -12532,7 +12886,7 @@ MonoBehaviour:
   playMode: 0
   animationEngine: 0
   customClassName: 
-  animEngine: {fileID: 84885279}
+  animEngine: {fileID: 946231622}
 --- !u!114 &2065474832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12585,20 +12939,6 @@ MonoBehaviour:
   playerID: 0
   addToFront: 0
   removeLast: 0
---- !u!114 &2069350026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
 --- !u!1 &2069656406
 GameObject:
   m_ObjectHideFlags: 0
@@ -12630,6 +12970,78 @@ Transform:
   m_Father: {fileID: 1741695722}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2071977039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2314b8a5519074a1fadc27b4aa968f97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 1
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 2
+    skipAction: 20
+    skipActionActual: {fileID: 1312053137}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 3509
+    width: 300
+    height: 252
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 8557358647403663644}
+  parameterID: -1
+  constantID: 0
+  _anim: {fileID: 671586638}
+  runtimeAnim: {fileID: 0}
+  clip: {fileID: 7400000, guid: 562cda2a2dc4a490198a04a80cee2cb0, type: 2}
+  fadeTime: 0
+  clipParameterID: -1
+  _anim2D: {fileID: 0}
+  runtimeAnim2D: {fileID: 0}
+  animator: {fileID: 0}
+  runtimeAnimator: {fileID: 0}
+  clip2D: 
+  clip2DParameterID: -1
+  wrapMode2D: 0
+  layerInt: 0
+  shapeObject: {fileID: 0}
+  runtimeShapeObject: {fileID: 0}
+  shapeKey: 0
+  shapeValue: 0
+  isPlayer: 0
+  methodMecanim: 0
+  mecanimParameterType: 0
+  parameterName: 
+  parameterNameID: -1
+  parameterValue: 0
+  parameterValueParameterID: -1
+  method: 0
+  blendMode: 0
+  playMode: 0
+  animationEngine: 0
+  customClassName: 
+  animEngine: {fileID: 1615946772}
 --- !u!114 &2083090769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12672,20 +13084,6 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 6093333682252632858}
   globalLightColor: {r: 0.1981132, g: 0.16727483, b: 0.16727483, a: 0}
   globalLight: {fileID: 310235257}
---- !u!114 &2091676478
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4624365f48c649fdaec08e7a0041404, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
 --- !u!1 &2093307971
 GameObject:
   m_ObjectHideFlags: 0
@@ -12864,6 +13262,66 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2105911945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 2
+    skipAction: 2
+    skipActionActual: {fileID: 1319029093}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 424
+    width: 300
+    height: 192
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 7902451959732611524}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 1
+  playerID: -1
+  speaker: {fileID: 0}
+  messageText: "\u8BA9\u6211\u6765\u597D\u597D\u6253\u626E\u4F60\uFF01"
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!114 &2110184525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12974,7 +13432,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 4979
+    y: 5411
     width: 300
     height: 172
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -13629,6 +14087,7 @@ MonoBehaviour:
   - {fileID: 1730859246}
   - {fileID: 92618022}
   - {fileID: 1898139912}
+  - {fileID: 1781382237}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -14805,7 +15264,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3266172895941483588}
   m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
-  m_LocalPosition: {x: 2.63, y: -1.77, z: 0}
+  m_LocalPosition: {x: 2.27, y: -1.77, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 875881713}
@@ -15295,7 +15754,6 @@ MonoBehaviour:
   - {fileID: 1991290728}
   - {fileID: 584963141}
   - {fileID: 1912877024}
-  - {fileID: 589644208}
   - {fileID: 1652882728}
   - {fileID: 634617282}
   - {fileID: 1701898391}
@@ -15511,6 +15969,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
+  - {fileID: 327914764}
   - {fileID: 501028801}
   - {fileID: 739456862}
   - {fileID: 1640011871}
@@ -16197,13 +16656,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 1699925108}
+  - {fileID: 767925470}
   - {fileID: 1112540346}
   - {fileID: 356977857}
   - {fileID: 1799122144}
   - {fileID: 737414406}
   - {fileID: 186429530}
   - {fileID: 738309043}
+  - {fileID: 165814797}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -16273,7 +16733,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5580190610316847117, guid: 3b7726ca04878434b8274ae6bcfd95d1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.927
+      value: 1.47
       objectReference: {fileID: 0}
     - target: {fileID: 5580190610316847117, guid: 3b7726ca04878434b8274ae6bcfd95d1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16306,14 +16766,6 @@ PrefabInstance:
     - target: {fileID: 5580190610316847117, guid: 3b7726ca04878434b8274ae6bcfd95d1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5580190610943497584, guid: 3b7726ca04878434b8274ae6bcfd95d1, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5580190610943497584, guid: 3b7726ca04878434b8274ae6bcfd95d1, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b7726ca04878434b8274ae6bcfd95d1, type: 3}
@@ -16413,7 +16865,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6058280703123943702}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.81, y: -0.33, z: 0}
+  m_LocalPosition: {x: 6.67, y: -0.33, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1357178497}
@@ -16500,8 +16952,8 @@ MonoBehaviour:
     invID: 0
     iconID: 0
     selectItemMode: 0
-    playerAction: 0
-    setProximity: 0
+    playerAction: 2
+    setProximity: 1
     proximity: 1
     faceAfter: 0
     isBlocking: 0
@@ -16864,6 +17316,7 @@ MonoBehaviour:
   - {fileID: 2065474832}
   - {fileID: 111579207}
   - {fileID: 1319029093}
+  - {fileID: 2105911945}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -17198,6 +17651,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wei
       objectReference: {fileID: 0}
+    - target: {fileID: 2933323089270834456, guid: 4ef807f390a2042d6907e5cd87ca4dd7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3274821400899742426, guid: 4ef807f390a2042d6907e5cd87ca4dd7, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -17306,7 +17763,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8524790368388441693}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.82, y: -1.63, z: 0}
+  m_LocalPosition: {x: -5.96, y: -2.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2104069139}
@@ -17500,6 +17957,7 @@ MonoBehaviour:
   - {fileID: 983138825}
   - {fileID: 807937109}
   - {fileID: 79505761}
+  - {fileID: 2071977039}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0

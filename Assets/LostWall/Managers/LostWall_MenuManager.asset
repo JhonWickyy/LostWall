@@ -4593,6 +4593,7 @@ MonoBehaviour:
   - {fileID: 5176306823174765871}
   - {fileID: -4893700294433742515}
   - {fileID: 5346288394368299750}
+  - {fileID: 0}
   transitionProgress: 0
   appearType: 14
   speechMenuType: 0
@@ -6778,7 +6779,7 @@ MonoBehaviour:
     height: 109.799995
   relativePosition: {x: 1, y: 11.6}
   numSlots: 1
-  uiImage: {fileID: 11483092, guid: f15f8212986624a8899a47f0054ebbc1, type: 3}
+  uiImage: {fileID: 0}
   graphicType: 2
   graphic:
     texture: {fileID: 0}
